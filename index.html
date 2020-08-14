@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <button id="everyone">Everyone bloodtype</button>
+  <button id="all">All bloodtype</button>
   <button id="men">Men bloodtype</button>
   <button id="women">Women bloodtype</button>
   <div id="donut"></div>
@@ -176,7 +176,7 @@ g.append('text')
   .attr('dy', '.35em')
   .text(text);
 
-d3.select("button#everyone")
+d3.select("button#all")
      .on("click", function () {
           change(total);
      })
